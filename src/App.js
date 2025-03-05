@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router';
-import ProductosMios from './componentes/ProductosMios';
+import Productos from './componentes/Productos';
 import Home from './componentes/Home';
 import About from './componentes/About';
 import Layout from './componentes/Layout';
@@ -11,7 +11,7 @@ function App() {
       <Routes>
           <Route path="/" element={<Layout />} >          {/* Layout es el contenedor donde se renderizan los hijos mediante Outlet*/}
             <Route index element={<Home />} />                                  {/* Home es el índice */}
-            <Route path="/productos/:productoId?" element={<ProductosMios />} />
+            <Route path="/productos/:productoId?" element={<Productos />} />
             <Route path="/about" element={<About />} />
           </Route>
       </Routes>
