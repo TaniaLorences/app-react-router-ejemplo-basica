@@ -1,0 +1,38 @@
+/* Layout.css */
+
+/* Colores */
+:root {
+    --green-light: #CBE609; /* Verde claro */
+    --gray-dark: #333; /* Gris oscuro */
+    --gray-light: #f0f0f0; /* Gris claro */
+    --green-primary: #8BC8AF; /* Verde más claro y menos saturado */
+    --gray-background: #f5f5f5; /* Fondo gris claro */
+    --green-dark: #427144;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--gray-background);
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--green-dark);
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header li {
+    margin: 0 1rem;
+  }
